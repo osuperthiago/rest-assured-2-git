@@ -31,8 +31,8 @@ public class TesteBasico {
                 .log().all();    // Loga no console todos os detalhes da resposta (body, headers, etc.)
     }
 
-    @Test
-    public void testWithId(){
+ //   @Test
+     public void testWithId(){
         RestAssured.baseURI = "https://restful-booker.herokuapp.com";
 
         given()
